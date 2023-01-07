@@ -14,7 +14,7 @@ Esta aplicacion ayuda a encontrar colores exactos de una imagen.
 
 ## Link
 
-- https://teal-genie-3c079b.netlify.app/
+- https://cool-chebakia-8553fe.netlify.app/
 
 ## Lenguajes o Herramientas
 
