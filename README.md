@@ -35,5 +35,5 @@ Si quieres contratarme puedes escribirme a nieves.diego0426@gmail.com 👍.
 
 <br/><br/>
 <div align="right" width="50">
-    <img src="./img/logo_secondary.webp" width="75%"/>
+    <img src="./img/logo_secondary.webp" width="15%"/>
 </div>
