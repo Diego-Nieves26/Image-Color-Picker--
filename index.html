@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/logo_secondary.webp" />
+    <title>Image Color Picker</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="error" class="hide"></div>
+    <div id="custom-alert">Color Code Copied!</div>
+    <div class="wrapper">
+      <div class="part-one container">
+        <img id="image" src="./img/test.webp" />
+        <button id="pick-color" onclick="colorSelector()">
+          <span class="button_top"> Pick Color </span>
+        </button>
+      </div>
+      <div class="part-two">
+        <div class="container">
+          <div class="colors-header">
+            <ul>
+              <li style="background-color: #ff605c"></li>
+              <li style="background-color: #ffbd44"></li>
+              <li style="background-color: #00ca4e"></li>
+            </ul>
+            <h2>Colores</h2>
+          </div>
+          <div id="result" class="colors-body">
+            <div>
+              <span id="picked-color-ref"></span>
+              <h3>HEX: </h3>
+              <input type="text" id="hex-val-ref" />
+              <i class="bx bxs-copy" onclick="copy('hex-val-ref')"></i>
+            </div>
+            <div>
+              <span id="picked-color-ref"></span>
+              <h3>RGB: </h3>
+              <input type="text" id="rgb-val-ref" />
+              <i class="bx bxs-copy" onclick="copy('rgb-val-ref')"></i>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <input
+            type="file"
+            onchange="changeImage()"
+            id="file"
+            accesskey="image/*"
+          />
+          <label for="file">
+            <span class="button_top"> Utilice Su Imagen </span>
+          </label>
+          <p>Carge su imagen desde su dispositivo.</p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <img src="./img/logo_secondary.webp" alt="Logo" />
+      <span
+        >Echo con <i class="bx bxs-heart bx-flashing"></i> por
+        <a href="https://github.com/Diego-Nieves26">Diego Nieves</a></span
+      >
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
