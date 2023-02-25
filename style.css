@@ -152,29 +152,6 @@ button:active .button_top label:active .button_top {
   transform: translateY(0);
 }
 
-footer{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, .5);
-  padding: 20px 0;
-  border-radius: 20px 20px 0 0;
-  position: fixed;
-  bottom: 0;
-}
-
-footer i{
-  color: red;
-}
-
-footer img {
-  width: 70px;
-}
-
 #error {
   color: white;
   background-color: #ff725a;
