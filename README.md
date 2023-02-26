@@ -1,4 +1,4 @@
-# Google Clone
+# Image Color Picker
 <div align="center" width="50">
     <img src="./img/bg.webp" width="75%"/>
 </div><br/>
